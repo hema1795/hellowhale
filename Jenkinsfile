@@ -1,6 +1,14 @@
 pipeline {
 
   agent any
+  
+    environment {
+    PROJECT_ID = 'handy-hexagon-318203'
+    CLUSTER_NAME = 'cluster'
+    LOCATION = 'us-central1-c'
+    CREDENTIALS_ID = 'jenkins'
+  }
+
 
   stages {
 
