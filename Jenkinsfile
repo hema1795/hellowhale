@@ -13,7 +13,7 @@ pipeline {
       stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("17hema/devops-training:${env.BUILD_ID}")
+                    myapp = docker.build("17hema/sample:${env.BUILD_ID}")
                 }
             }
         }
