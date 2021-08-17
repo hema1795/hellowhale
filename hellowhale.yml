@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-whale-container
-        image: 17hema/devops-training:latest
+        image: 17hema/sample:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
