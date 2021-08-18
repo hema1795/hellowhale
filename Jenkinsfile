@@ -4,9 +4,9 @@ pipeline {
   
     environment {
     PROJECT_ID = 'handy-hexagon-318203'
-    CLUSTER_NAME = 'cluster'
+    CLUSTER_NAME = 'jenkins'
     LOCATION = 'us-central1-c'
-    CREDENTIALS_ID = 'jenkins'
+    CREDENTIALS_ID = 'mykubeconfig'
   }
 
 
